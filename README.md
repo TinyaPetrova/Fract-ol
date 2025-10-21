@@ -1,4 +1,4 @@
-# fract-ol
+# Fract-ol
 
 [![42 School project](https://img.shields.io/badge/42-Project-blue)](https://42.fr)
 [![Score](https://img.shields.io/badge/Score-125%2F125-success)](https://github.com/yourusername/fractol)
