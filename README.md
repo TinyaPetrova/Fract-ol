@@ -190,42 +190,44 @@ The program will display usage instructions if arguments are incorrect:
 
 ```
 fractol/
+│
+├── fractol.h                          # header file
 ├── Makefile
-├── README.md
-├── fractol.h                      # header file
-├── minilibx-linux/                # MiniLibX graphics library
 │
-├── Mandatory files
-├── main_mandatory.c               # entry point (mandatory)
-├── draw_mandatory.c               # rendering functions
-├── handlers_mandatory.c           # event handlers
-├── colorizer_mandatory.c          # color algorithms
-├── utils_init_mandatory.c         # initialization utilities
-├── utils_print_mandatory.c        # usage/help messages
-├── validator_mandatory.c          # input validation
+├── src/
+│   ├── mandatory/
+│   │   ├── main_mandatory.c           # entry point (mandatory)
+│   │   ├── draw_mandatory.c           # rendering functions
+│   │   ├── colorizer_mandatory.c      # color algorithms
+│   │   ├── handlers_mandatory.c       # event handlers
+│   │   ├── utils_init_mandatory.c     # initialization utilities
+│   │   ├── utils_print_mandatory.c    # usage/help messages
+│   │   └── validator_mandatory.c      # input validation
+│   │
+│   ├── bonus/
+│   │   ├── main_bonus.c               # entry point (bonus)
+│   │   ├── draw_bonus.c               # enhanced rendering
+│   │   ├── draw_preview_bonus.c       # fast preview rendering
+│   │   ├── colorizer_bonus.c          # multiple color palettes
+│   │   ├── handlers_bonus.c           # enhanced event handlers
+│   │   ├── handlers_key_bonus.c       # keyboard event handling
+│   │   ├── handlers_motion_bonus.c    # mouse motion handling
+│   │   ├── handlers_zoom_bonus.c      # zoom calculations
+│   │   ├── utils_init_bonus.c         # extended initialization
+│   │   ├── utils_print_bonus.c        # enhanced help messages
+│   │   └── validator_bonus.c          # extended input validation
+│   │
+│   ├── fractals/
+│   │   ├── mandelbrot.c               # calculation of Mandelbrot set
+│   │   ├── julia.c                    # calculation of Julia set
+│   │   ├── spider.c                   # calculation of Spider fractal
+│   │   └── burning_ship.c             # calculation of Burning Ship 
+│   │
+│   └── utils/
+│       ├── utils.c                    # general utilities (atof, map)
+│       └── utils_lib.c                # string/math functions
 │
-├── Bonus files
-├── main_bonus.c                   # entry point (bonus)
-├── draw_bonus.c                   # enhanced rendering
-├── draw_preview_bonus.c           # fast preview rendering
-├── handlers_bonus.c               # enhanced event handlers
-├── handlers_key_bonus.c           # keyboard event handling
-├── handlers_motion_bonus.c        # mouse motion handling
-├── handlers_zoom_bonus.c          # zoom calculations
-├── colorizer_bonus.c              # multiple color palettes
-├── utils_init_bonus.c             # extended initialization
-├── utils_print_bonus.c            # enhanced help messages
-├── validator_bonus.c              # extended input validation
-│
-├── Fractal algorithms
-├── mandelbrot.c                   # calculation of Mandelbrot set
-├── julia.c                        # calculation of Julia set 
-├── spider.c                       # calculation of Spider fractal 
-├── burning_ship.c                 # calculation of Burning Ship 
-│
-└── Utilities
-    ├── utils.c                    # general utilities (atof, map)
-    ├── utils_lib.c                # string/math functions
+└── minilibx-linux/                    # MiniLibX graphics library
 ```
 
 ## Technical Details
