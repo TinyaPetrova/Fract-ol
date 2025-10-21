@@ -15,7 +15,6 @@ My own vision of beautiful fractal rendering created as part of my 42 School exp
 - [Project Structure](#project-structure)
 - [Technical Details](#technical-details)
 - [Bonus Features](#bonus-features)
-- [Acknowledgments](#acknowledgments)
 - [Tips to Try](#tips)
 
 ## What is Fract-ol?
