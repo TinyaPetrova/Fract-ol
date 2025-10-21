@@ -6,8 +6,6 @@
 
 My own vision of beautiful fractal rendering created as part of my 42 School experience. This project explores the fascinating world of fractals through interactive visualization using the MiniLibX graphics library.
 
-![Fractol Demo](https://via.placeholder.com/800x400.png?text=Fractol+Demo)
-
 - [What is Fract-ol?](#about)
 - [Features](#features)
 - [Supported Fractals](#supported-fractals)
@@ -57,26 +55,11 @@ The classic fractal discovered by Benoit Mandelbrot. Visualizes the set of compl
 ### 2. Julia Set
 A family of fractals closely related to the Mandelbrot set. This set is named after the French mathematician Gaston Julia. Each Julia set corresponds to a different complex constant.
 
-```bash
-./fractol julia                    
-./fractol julia -0.7 0.27015      
-./fractol julia 0.285 0.01        
-```
-
 ### 3. Spider Fractal (Bonus)
 A variant of the Julia set that creates web-like patterns.
 
-```bash
-./fractol spider                 
-./fractol spider -0.7 0.27015     
-```
-
 ### 4. Burning Ship (Bonus)
 A fractal that resembles a ship in flames, created using absolute values in the iteration.
-
-```bash
-./fractol burning_ship
-```
 
 ## Installation
 
@@ -164,8 +147,8 @@ The program will display usage instructions if arguments are incorrect:
 ```bash
 ./fractol                          # missing arguments
 ./fractol invalid                  # unknown fractal type
-./fractol julia 3.0 0.5           # parameters out of range
-./fractol mandelbrot 0.5 0.5      # extra parameters
+./fractol julia 3.0 0.5            # parameters out of range
+./fractol mandelbrot 0.5 0.5       # extra parameters
 ```
 
 ## Controls
