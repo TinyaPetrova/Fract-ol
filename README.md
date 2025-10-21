@@ -4,7 +4,9 @@
 [![Score](https://img.shields.io/badge/Score-125%2F125-success)](https://github.com/yourusername/fractol)
 [![Language](https://img.shields.io/badge/Language-C-orange)](https://en.wikipedia.org/wiki/C_(programming_language))
 
-![](https://github.com/TinyaPetrova/Fract-ol/tree/main/assets/mandelbrot.gif)
+<p align="center">
+  <img src="assets/mandelbrot.gif" alt="mandelbrot" />
+</p>
 
 My own vision of beautiful fractal rendering created as part of my 42 School experience. This project explores the fascinating world of fractals through interactive visualization using the MiniLibX graphics library.
 
