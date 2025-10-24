@@ -80,4 +80,8 @@ fclean: clean
 
 re: fclean all
 
+re_bonus: fclean bonus
+
+re_both: fclean both
+
 .PHONY: all bonus both clean fclean re re_bonus re_both
